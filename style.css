@@ -1,0 +1,49 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+   padding-top: 17%;
+  
+
+}
+ body{
+   background-image: linear-gradient( to bottom right, #ee68dc, #8047d7, #4a81d9, #57b4cb);
+   width: 100vw;
+   height: 100vh;
+   
+ }
+.colum{
+  margin: 20px;
+  
+}
+.colum1 input { 
+  font-size: 1.2rem;
+   width: 60px;
+   height: 60px;
+  text-align: center;
+  cursor: pointer;
+  box-shadow: 3px 3px 3px 3px black;
+  border-radius: 20%;
+  margin-left: 1rem;
+  
+  
+  
+}
+.input-box{
+  margin-left: px;
+  margin-bottom: 15px;
+  width: 290px;
+  height: 40px;
+  background-color: black;
+  color: #ee68dc ;
+  border: 3px black;
+  text-align: right;
+  font-size: 1.5rem;
+  
+  
+  
+}

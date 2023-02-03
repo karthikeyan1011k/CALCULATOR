@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Karthikeyan</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <form>
+    <div class="container">
+      <div class="row">
+        <div class="colum">
+          <input type="text" name="display" class="input-box">
+        </div>
+        <div class="colum1">
+          <input type="button" value="AC" onclick="display.value = '' 
+           " class="button">
+          <input type="button" value="DEL" onclick="display.value = display.value.toString().slice(0 , -1)
+           " class="button">
+          <input type="button" value="%" onclick=" display.value += '%'
+           " class="button">
+          <input type="button" value="*" onclick="display.value += '*' 
+           " class="button">
+        </div>
+        <div class="colum1">
+          <input type="button" value="9" onclick="display.value += '9' 
+           " class="button">
+          <input type="button" value="8" onclick="display.value += '8' 
+           " class="button">
+          <input type="button" value="7" onclick="display.value += '7' 
+           " class="button">
+          <input type="button" value="/" onclick="display.value += '/' 
+           " class="button">
+        </div>
+
+        <div class="colum1">
+          <input type="button" value="4" onclick="display.value += '4' 
+           " class="button">
+          <input type="button" value="5" onclick="display.value += '5' 
+           " class="button">
+          <input type="button" value="6" onclick="display.value += '6' 
+           " class="button">
+          <input type="button" value="-" onclick="display.value += '-' 
+           " class="button">
+        </div>
+        <div class="colum1">
+          <input type="button" value="1" onclick="display.value += '1' 
+           " class="button">
+          <input type="button" value="2" onclick="display.value += '2' 
+           " class="button">
+          <input type="button" value="3" onclick="display.value += '3' 
+           " class="button">
+          <input type="button" value="+" onclick="display.value += '+' 
+           " class="button">
+        </div>
+
+        <div class="colum1">
+          <input type="button" value="00" onclick="display.value += '00' 
+           " class="button">
+          <input type="button" value="0" onclick="display.value += '0' 
+           " class="button">
+          <input type="button" value="." onclick="display.value += '.' 
+           " class="button">
+          <input type="button" value="=" onclick="display.value = 
+             eval(display.value)" class="button">
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  
+
+</html>
