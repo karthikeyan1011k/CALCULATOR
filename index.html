@@ -5,11 +5,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Karthikeyan</title>
+  <script src="https://kit.fontawesome.com/d22a47b862.js" crossorigin="anonymous"></script>
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-  <form>
+  
+  <form class="box">
+    <p>CALCULATOR</p>
     <div class="container">
       <div class="row">
         <div class="colum">
@@ -20,7 +23,7 @@
            " class="button">
           <input type="button" value="DEL" onclick="display.value = display.value.toString().slice(0 , -1)
            " class="button">
-          <input type="button" value="%" onclick=" display.value += '%'
+          <input type="button" value="%" onclick=" display.value = display.value.toString()/100
            " class="button">
           <input type="button" value="*" onclick="display.value += '*' 
            " class="button">
@@ -70,7 +73,23 @@
       </div>
     </div>
   </form>
-
+  <div class="owned">
+    <p> Owned And Created By Karthikeyan</p>
+  </div>
+    <ul class="social-media d-flex center">
+        <a class="container-card" href="https://linkedin.com/in/karthi-keyan-2a2527186" target="_blank">
+            <li><i class="fa-brands fa-linkedin-in"></i></li>
+        </a>
+        <a class="container-card" href="https://github.com/karthikeyan1011k" target="_blank">
+            <li><i class="fa-brands fa-github"></i></li>
+        </a>
+        <a class="container-card" href="https://www.instagram.com/mr_karthi_k/" target="_blank">
+            <li><i class="fa-brands fa-instagram"></i></li>
+        </a>
+        <a class="container-card" href="https://wa.me/+918760469789" target="_blank">
+            <li><i class="fa-brands fa-whatsapp"></i></li>
+        </a>
+    </ul>
   <script src="script.js"></script>
 
   <!--
@@ -78,6 +97,7 @@
   page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
   teal, blue, blurple, magenta, pink!
   -->
-  
+
+</body>
 
 </html>
